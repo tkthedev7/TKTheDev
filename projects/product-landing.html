@@ -1,0 +1,335 @@
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://visualpharm.com/assets/920/Overwatch-595b40b65ba036ed117d4504.svg"
+        alt="Overwatch Training Association Page"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#weekly-tip">Weekly Tip</a></li>
+        <li><a class="nav-link" href="#our-process">Our Process</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+  <section id="subhead"><h2>Weekly Tip</h2></section>
+  <section id="weekly-tip">
+    <div class="weekly-tip">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GRsNyX3WPIU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; 
+                              encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+  </section>
+  <section id="subhead"><h2>Our Process</h2></section>
+
+  <div class="container">
+    <section id="our-process">
+      <div class="grid">
+        <div class="desc">
+          <h2>Goal-Oriented Learning</h2>
+          <p>
+            We make sure that each lesson has a clearly defined agenda and
+            learning path to improve your mechanical and situational skills.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="desc">
+          <h2>Fundamental Re-Programming</h2>
+          <p>
+            We start at the fundamentals and work our way up, making sure you
+            have a strong foundation to work from.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"></div>
+        <div class="desc">
+          <h2>Attitude Training</h2>
+          <p>
+            Making sure your mental stays strong is one of our biggest goals, so
+            you can focus on being the MTD.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="subhead"><h2>Pricing</h2></section>
+
+    <section id="pricing">
+      <div class="product" id="bass">
+        <div class="level">Gold</div>
+        <h2>$9.99 / month</h2>
+        <ol>
+          <li>One weeekly lesson</li>
+          <li>Bi-weekly film reviews</li>
+          <li>Monthly consulting with vision alignment</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+
+      <div class="product" id="valve">
+        <div class="level">Platnium</div>
+        <h2>$14.99 / month</h2>
+        <ol>
+          <li>Unlimited lessons</li>
+          <li>Customized plan for each role</li>
+          <li>Weekly film reviews with all games recorded</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+
+    <section id="subhead"><h2>Contact</h2></section>
+    <section id="contact">
+      <div class="contact">
+        <p>
+          Submit your email below and we will reach out for a free consultation
+          and first lesson.
+        </p>
+        <form id="form" action="https://www.OTA.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="email@email.com"
+            required
+          />
+          <input id="submit" type="submit" value="Submit" class="btn" />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+      <span>Copyright 2021, Overwatch Training Association</span>
+    </footer>
+  </div>
+</div>
+
+<style>
+  /** global element styling **/
+
+  @import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #eee;
+    font-family: "Lato", sans-serif;
+  }
+
+  h2 {
+    margin-top: 50px;
+  }
+
+  #page-wrapper {
+    position: relative;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .weekly-tip {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .grid {
+    display: flex;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+  }
+
+  .logo {
+    width: 80px;
+    height: 50px;
+  }
+
+  .logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #subhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .product > h2 {
+    margin-top: 15px;
+  }
+
+  .product > ol {
+    margin: 15px 0;
+  }
+
+  .product > ol > li {
+    padding: 5px 0;
+  }
+
+  .product > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+  }
+
+  .product > button:hover {
+    background-color: orange;
+    transition: background-color 1s;
+  }
+
+  @media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+
+  footer > ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer > ul > li {
+    padding: 0 10px;
+  }
+
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    color: #444;
+  }
+
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+</style>
