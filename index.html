@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tristan Klinski</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://tkthedev7.com" class="link">TK.</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, my name is <span class="about__name">Tristan Klinski.</span></h1>
+        <h2 class="about__role">I'm a DevOps Engineer.</h2>
+        <p class="about__desc"></p>
+          I love golfing, video games, basketball, and world history. I enjoy
+          learning, improving processes, and applying new technologies to solve
+          complex problems. I've moved across the country twice in my lifetime,
+          and really look forward to traveling across the world once I wipe out
+          my student loans.
+        </p>
+
+        <div class="about__contact center">
+          <a href="./resume.html">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/tkthedev7"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/tristanklinski"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Social Crossing</h3>
+            <p class="project__description">
+              Hangout app for animal crossing players.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Vue.js</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/tkthedev7/SocialCrossing"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="./coming-soon.html"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Review Tracker</h3>
+            <p class="project__description">
+              APIs to track live restaurant reviews, responses, and ratings
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">API's</li>
+            </ul>
+
+            <a
+              href="https://github.com/tkthedev7/RestaurantMaster"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="./coming-soon.html"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Petstagram</h3>
+            <p class="project__description">
+              Instagram clone app but for your pets
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">PHP</li>
+              <li class="project__stack-item">Laravel</li>
+              <li class="project__stack-item">Vue.js</li>
+            </ul>
+
+            <a
+              href="https://github.com/tkthedev7/petstagram"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="./coming-soon.html"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Jira</li>
+          <li class="skills__list-item btn btn--plain">Confluence</li>
+          <li class="skills__list-item btn btn--plain">Laravel</li>
+          <li class="skills__list-item btn btn--plain">Node</li>
+          <li class="skills__list-item btn btn--plain">Vue</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Kubernetes</li>
+          <li class="skills__list-item btn btn--plain">Docker</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:tristanklinski@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">By Tristan Klinski</footer>
+
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
