@@ -1,0 +1,1 @@
+Hello! This is my portfolio website. I utilized a template I liked from reddit and added some personal touches to it (included the resume section). Feel free to reach out if you have any questions, but there isn't too much complicated logic in here. Cheers!
